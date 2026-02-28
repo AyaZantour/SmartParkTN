@@ -1,0 +1,6 @@
+# YOLO model weights are downloaded automatically on first run.
+# No manual placement needed — the pipeline fetches:
+#   keremberke/yolov8n-license-plate-extraction  (HuggingFace, ~6 MB)
+#
+# To use your own fine-tuned weights, set in .env:
+#   YOLO_WEIGHTS=./models/plate_detector.pt

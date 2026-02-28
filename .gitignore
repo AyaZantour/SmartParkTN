@@ -1,0 +1,44 @@
+# ── Secrets & environment ────────────────────────────────────────────────────
+.env
+*.key
+*.pem
+secrets/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# ── ML Models (large binaries – download on first run) ───────────────────────
+models/*.pt
+models/*.onnx
+models/*.pkl
+*.pt
+*.onnx
+# Keep the directory itself
+!models/.gitkeep
+
+# ── Generated / runtime data ─────────────────────────────────────────────────
+smartpark.db
+smartpark.db-shm
+smartpark.db-wal
+data/chroma_db/
+assets/captures/
+*.log
+
+# ── OS & editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
