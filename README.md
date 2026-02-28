@@ -764,13 +764,13 @@ smartparktn/
 
 ## 📄 Licence
 
-Ce projet est distribué sous licence **MIT**. Voir [LICENSE](LICENSE).
+Ce projet est distribué sous licence **MIT**. .
 
 ---
 
 ## 👥 Équipe
 
-**Projet SmartParkTN** — Challenge AINC 2024/2025
+**Projet SmartParkTN** — Challenge AINC 2026
 
 ---
 
